@@ -1,0 +1,50 @@
+Considere um aplicativo de cadastro em uma Pista de Corridas. 
+Considere uma classe chamada Pista com os atributos privados String nome e static int QuantidadeCorredores; 
+Considere uma classe Pilotos com um atributo privado String nome e outro atributo privado pistaCorrida do tipo Pista; 
+Considere o uso do método hashCode() para imprimir o ID da pista; 
+Para a classe Piloto, crie um método que imprima a Ficha do Piloto com os dados: 
+Nome:  
+Nome da Pista: Autodromo Internacional de Goiania 
+ID Pista:  
+Quantidade de Corredores: x 
+ 
+
+Para a aplicação, desenvolva um projeto Singleton que permita o cadastro de n corredores para disputarem uma corrida em uma pista que se chama “Autodromo Internacional de Goiania” (pode usar o construtor da Pista para inicializar esse nome). 
+
+Cada piloto deve ter seu nome inicializado e também deve informar em qual pista deve disputar a corrida. Imaginando que o projeto é Singleton, a chamada para essa atividade deve ser utilizada em um construtor do piloto. 
+
+Para testar o programa, crie três pilotos e imprima as mensagens conforme o exemplo a seguir: 
+
+Dados do Corredor  
+
+Nome: Japa 
+
+Nome da Pista: Autodromo Internacional de Goiania 
+
+ID Pista: 363771819 
+
+Quantidade de Corredores: 1 
+
+ 
+
+Dados do Corredor  
+
+Nome: Goku 
+
+Nome da Pista: Autodromo Internacional de Goiania 
+
+ID Pista: 363771819 
+
+Quantidade de Corredores: 2 
+
+ 
+
+Dados do Corredor  
+
+Nome: Jaspion 
+
+Nome da Pista: Autodromo Internacional de Goiania 
+
+ID Pista: 363771819 
+
+Quantidade de Corredores: 3 

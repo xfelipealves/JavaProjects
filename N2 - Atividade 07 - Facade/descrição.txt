@@ -1,0 +1,15 @@
+Instruções
+Exercício – Imagine uma fábrica de cervejas que contenha os seguintes tipos de cervejas: 
+
+Ale, Lager, Munich, Porter, Stout, Trigo e Vienna. 
+ 
+
+Imagine uma interface chamada Cerveja que possui um método abstrato chamado produzir. Cada tipo de cerveja implementa essa interface, sendo que cada tipo de cerveja imprime seu próprio tipo nesse método. Exemplo: Trigo imprime “Cerveja de Trigo.”, Stout imprime “Cerveja de Stout”, etc. 
+
+ 
+
+Agora, imagine que cada tipo de cerveja se enquadra em um dos dois tipos de categorias: Ales e Lagers.  
+
+As Ales são as cervejas do tipo: ale, porter, stout, e trigo. 
+As Lagers são as cervejas do tipo: lager, munich e vienna. 
+Crie um programa em Java com um padrão Facade que crie uma interface comum, de tal forma que cada tipo de cerveja se enquadre nas categorias Ales ou Lagers. Assim, cada cerveja da categoria Ales, por exemplo, pode ser fabricada, da mesma forma que cervejas da categoria Lagers também podem ser fabricadas. 

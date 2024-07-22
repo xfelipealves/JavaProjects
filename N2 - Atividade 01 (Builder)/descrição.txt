@@ -1,0 +1,86 @@
+Considere a seguinte classe Produto:
+
+ public class Carro {
+
+    private String tipo;  
+
+    private String transmissao;  
+
+    private String bancos;  
+
+    private String acessorio;  
+
+    private String sensor;  
+
+................ GETTERS e SETTERS  
+
+    @Override
+
+   public String toString() {}
+
+ }
+
+// Construtor para carro Importado
+
+public Carro(String tipo, String transmissao, String bancos, String acessorio, String sensor) {  
+
+                               this. tipo = tipo;
+
+                               this. transmissao = transmissao;
+
+                               this. bancos = bancos;
+
+                               this. acessorio = acessorio;
+
+                               this. sensor = sensor;
+
+}
+
+ 
+
+// Construtor para carro Esportivo
+
+public Carro(String tipo, String transmissao, String bancos, String acessorio) {  
+
+                               this. tipo = tipo;
+
+                               this. transmissao = transmissao;
+
+                               this. bancos = bancos;
+
+                               this. acessorio = acessorio;
+
+}
+
+
+// Construtor para carro Popular
+
+public Carro(String tipo, String transmissao, String bancos, String acessorio) {  
+
+                               this. tipo = tipo;
+
+                               this. transmissao = transmissao;
+
+                               this. bancos = bancos;
+
+}
+
+ 
+
+Use o padrão BUILDER para modificar a classe Carro e produza os três carros solicitados no programa principal . Exemplo:
+
+Vendendo um Palio
+
+Carro [Tipo=Popular, transmissao=Manual, bancos=Tecido, acessorio=null, sensor=null]
+
+------------------
+
+Vendendo um Civic
+
+Carro [Tipo=Importado, transmissao=Automatica, bancos=Couro, acessorio=Insulfilm e Friso Lateral, sensor=Estacionamento]
+
+------------------
+
+Vendendo um Jaguar
+
+Carro [Tipo=Esportivo, transmissao=Paddle Shift, bancos=Couro, acessorio=Aerofolio, sensor=null]

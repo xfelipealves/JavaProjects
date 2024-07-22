@@ -1,0 +1,48 @@
+Instruções
+Exercicio - Seja uma loja de Chocolates. Considere três tipo de chocolates: Pastilha, Tablete e Bombom 
+
+Considere ainda que cada chocolate pode ser Ao Leite, Meio Amargo e Branco. 
+
+Faça um programa em Java que utilize o padrão Decorator, para implementar as várias formas de entregar os chocolates, conforme a Personalização indicada pelo Cliente. 
+
+Exemplos de saída: 
+
+Chocolate 1: 
+
+Tipo: Tablete. 
+
+ 
+
+Chocolate 2: 
+
+Tipo: Bombom. 
+
+ 
+
+Chocolate 3: 
+
+Tipo: Bombom. 
+
+         |-> Branco. 
+
+ 
+
+Chocolate 4: 
+
+Tipo: Pastilha. 
+
+         |-> Ao Leite. 
+
+         |-> Meio Amargo. 
+
+ 
+
+Chocolate 5: 
+
+Tipo: Pastilha. 
+
+         |-> Ao Leite. 
+
+         |-> Meio Amargo. 
+
+         |-> Branco. 

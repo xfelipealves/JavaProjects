@@ -1,0 +1,27 @@
+Instruções
+Exercício – Mediator 
+
+ 
+
+Imagine uma Agência Bancária com um caixa para cada um dos seguintes tipos de serviços: poupança, saque, cheque e depósito. Cada caixa possui sua própria fila de atendimento. O problema é que essa agência não tem um controle por senhas e nem mesmo um pré-atendimento, causando problemas para os clientes e também para os caixas. 
+
+                Para resolvermos esse problema, vamos implementar a agência bancária em Java, com um mediador que vai ser o responsável por controlar o acesso a cada fila, distribuindo as senhas, de acordo com a chegada dos clientes. 
+
+                Para implementarmos essa solução, considere as seguintes características: 
+
+Interface Caixa com os métodos: 
+public abstract void listaFila(): para lista as filas 
+public abstract void redirecionar(int senha): para adicionar a senha na fila correta 
+public abstract void atender(): para chamar o próximo na fila (retira da fila) 
+Classes que implementam a interface Caixa: 
+Poupança, Saque, Cheque, Deposito. 
+A Interface do Mediador: possui obrigatoriamente os seguintes métodos: 
+public abstract void criaFilaPoupanca(Caixa p) 
+public abstract void criaFilaSaque(Caixa p) 
+public abstract void criaFilaCheque(Caixa p) 
+public abstract void criaFilaDeposito(Caixa p) 
+public abstract void controlaFila (int fila, int senha) 
+A Implementação do Mediador vai implementar todos os métodos da interface do Mediador, sendo que o método controlaFila (int fila, int senha) deve usar o método redirecionar(int senha) de cada caixa para colocar o cliente na fila correta. Lembrando que para isso, o mediador deve conhecer todos os caixas (atributos). 
+No programa principal, crie os quatro caixas e vincule-os ao mediador. 
+Para testar, crie uma gerador de senhas sequenciais. Redirecione essas senhas para as filas de acordo com o serviço selecionado. 
+Após formar as filas, chame as senhas uma por uma e imprima a fila respectiva (use a lógica que desejar). 

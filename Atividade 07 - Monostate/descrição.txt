@@ -1,0 +1,6 @@
+Siga as instruções:
+Crie uma classe abstrata Refrigerante com o atributo String nome. Crie o construtor full e o getter/setter
+Crie uma herança com duas classes concretas: Guarana e CocaCola. Essas classes devem ter o construtor full 
+Crie uma Factory Method (full) que produz ou o Guarana ou a CocaCola. Use um método chamado "vender" que retorne o refrigerante desejado pelo usuário. Esse método somente retornará o refrigerante quando o atributo double valor dessa classe atingir R$ 5,00. Ou seja, o método vender possui um parâmetro valor que será passado pelo usuário. A regra é: se o valor passado pelo método for menor que 5 reais, retorne uma mensagem dizendo que faltam X reais. Se atingir o valor superior a 5 reais, devolve todo o dinheiro e resete o atributo valor para 0. Se for 5 reais, pergunte qual refrigerante deve devolver. Crie os objetos do tipo desejado pelo usuário.
+No main: imprima o nome do refrigerante que foi vendido. Use um @Override toString para realizar essa impressão.
+Detalhe: a factory deverá usar o atributo valor no padrão MONOSTATE, pois o método vender pode ser chamado várias vezes até atingir o valor de R$ 5,00 para produzir o refrigerante.

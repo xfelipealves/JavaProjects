@@ -1,0 +1,12 @@
+Instruções
+Imagine uma fábrica de salgados que produza três tipos de produtos: coxinha, esfirra e pastel. 
+
+Considere três tipos de recheio: carne, queijo e frango. 
+
+Usar o padrão Bridge para que seja possível fabricar os salgados de carne, queijo ou frango (todas as opções possíveis). 
+
+No programa principal, crie os três tipos de recheios e os três tipos de salgados e produza todos os salgados, imprimindo as mensagens exemplo:  
+
+Salgado produzido: coxinha. Recheio de frango. 
+Salgado produzido: coxinha. Recheio de carne. 
+Salgado produzido: esfirra. Recheio de queijo. 

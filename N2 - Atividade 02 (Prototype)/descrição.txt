@@ -1,0 +1,48 @@
+Instruções
+Considere a seguinte classe: 
+
+ public class Veiculo { 
+
+    public ArrayList<Pneu> pneus;     
+
+ } 
+
+ 
+
+Considere a classe Pneu: 
+
+public class Pneu{ 
+
+String tipo; 
+
+Int aro; 
+
+.... construtor full 
+
+.... getters e setters 
+
+} 
+
+ 
+
+Crie duas classes: 
+
+ 
+
+public class Caminhao extends Veiculo { 
+
+... pode usar um @Override String toString();  
+
+} 
+
+public class carro extends Veiculo { 
+
+... pode usar um @Override String toString();  
+
+} 
+
+Usar o padrão Prototype para representar a classe Pneu como clonável.  
+
+No programa principal, crie um tipo de pneu com um aro específico para carro. Exemplo: tipo=”Firestone”, aro=16 e clone os demais três pneus no array do carro. 
+No programa principal, crie um tipo de pneu com um aro específico para caminhão. Exemplo: tipo=”Michelin”, aro=30 e clone os demais cinco pneus no array do carro. 
+No final, imprima as informações dos pneus dos dois veículos criados. 
